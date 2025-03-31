@@ -10,7 +10,7 @@ sidebar_options = ["Acerca de mi", "Descripción del Proyecto", "Recetas del Mun
 selected_sidebar_option = st.sidebar.selectbox("Opciones", sidebar_options)
 
 # Lista de países
-paises = ["Argentina", "Italia", "Japón", "México", "Francia", "India"]
+paises = ["Argentina", "Italia", "Japón", "México", "Francia", "India", "Peru", "Chile", "Brasil", "Colombia", "Venezuela"]
 
 # Diccionario de banderas
 banderas = {
@@ -20,6 +20,11 @@ banderas = {
     "México": "https://flagcdn.com/w320/mx.png",
     "Francia": "https://flagcdn.com/w320/fr.png",
     "India": "https://flagcdn.com/w320/in.png",
+    "Peru": "https://flagcdn.com/w320/pe.png",
+    "Chile": "https://flagcdn.com/w320/cl.png",
+    "Brasil": "https://flagcdn.com/w320/br.png",
+    "Colombia": "https://flagcdn.com/w320/co.png",
+    "Venezuela": "https://flagcdn.com/w320/ve.png",
 }
 
 if selected_sidebar_option == "Acerca de mi":
